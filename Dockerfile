@@ -1,5 +1,5 @@
 FROM alpine:3.8
-LABEL Maintainer="Vladislav Mostovoi <vladkimo@gmail.com>" \
+LABEL Maintainer="Mark Schenk <m.m.a.schenk@gmail.com>" \
       Description="Docker image for Open Web Analytics with Nginx & PHP-FPM 5.x based on Alpine Linux."
 
 ENV OWA_VERSION="1.6.8"
