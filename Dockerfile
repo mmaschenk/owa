@@ -22,6 +22,7 @@ RUN set -ex \
     && apk upgrade \
     && apk add --update tzdata \
     && apk --no-cache add \
+    php5 \
     php5-fpm \    
     php5-mysql \
     php5-mysqli \
